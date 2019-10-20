@@ -1558,10 +1558,55 @@ section.lazy-placeholder:after {
 .cid-rFtAOgsvoF .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
+.cid-rFtElSlVxx {
+  padding-top: 120px;
+  padding-bottom: 0px;
+  background-color: #d45c5c;
+}
+.cid-rFtElSlVxx .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rFtElSlVxx .formoid {
+  margin: auto;
+}
+.cid-rFtElSlVxx .form-control {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.cid-rFtElSlVxx .input-group-btn .btn {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 0 !important;
+}
+.cid-rFtElSlVxx a:not([href]):not([tabindex]) {
+  color: #fff;
+}
+.cid-rFtElSlVxx a.btn-white:not([href]):not([tabindex]) {
+  color: #333;
+}
+@media (max-width: 768px) {
+  .cid-rFtElSlVxx .mbr-form .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .cid-rFtElSlVxx .form-group,
+  .cid-rFtElSlVxx .input-group-btn,
+  .cid-rFtElSlVxx .input-group-btn .btn {
+    max-width: 300px;
+    width: 100%;
+  }
+}
+@media (min-width: 769px) {
+  .cid-rFtElSlVxx .mbr-form .row > * {
+    padding: 0 0.5rem;
+  }
+}
 .cid-rFtB3Vn6lm {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #ffffff;
+  background-color: #d45c5c;
 }
 .cid-rFtB3Vn6lm .title {
   margin-bottom: 2rem;
